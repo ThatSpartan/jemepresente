@@ -1,0 +1,11 @@
+C:\Users\Dominik\Desktop\je_me_presente\je_me_presente\bin\Debug\je_me_presente.exe.config
+C:\Users\Dominik\Desktop\je_me_presente\je_me_presente\bin\Debug\je_me_presente.exe
+C:\Users\Dominik\Desktop\je_me_presente\je_me_presente\bin\Debug\je_me_presente.pdb
+C:\Users\Dominik\Desktop\je_me_presente\je_me_presente\bin\Debug\je_me_presente.xml
+C:\Users\Dominik\Desktop\je_me_presente\je_me_presente\obj\Debug\je_me_presente.vbprojResolveAssemblyReference.cache
+C:\Users\Dominik\Desktop\je_me_presente\je_me_presente\obj\Debug\je_me_presente.Form1.resources
+C:\Users\Dominik\Desktop\je_me_presente\je_me_presente\obj\Debug\je_me_presente.Resources.resources
+C:\Users\Dominik\Desktop\je_me_presente\je_me_presente\obj\Debug\je_me_presente.vbproj.GenerateResource.Cache
+C:\Users\Dominik\Desktop\je_me_presente\je_me_presente\obj\Debug\je_me_presente.exe
+C:\Users\Dominik\Desktop\je_me_presente\je_me_presente\obj\Debug\je_me_presente.xml
+C:\Users\Dominik\Desktop\je_me_presente\je_me_presente\obj\Debug\je_me_presente.pdb
