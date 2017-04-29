@@ -19,3 +19,17 @@ C:\Users\Dominik\Desktop\zac\application_aire\application_aire\bin\Debug\applica
 C:\Users\Dominik\Desktop\zac\application_aire\application_aire\obj\Debug\application_aire.exe
 C:\Users\Dominik\Desktop\zac\application_aire\application_aire\obj\Debug\application_aire.xml
 C:\Users\Dominik\Desktop\zac\application_aire\application_aire\obj\Debug\application_aire.pdb
+C:\Users\Dominik\Desktop\zac\application_aire\application_aire\bin\Debug\application_aire.exe
+C:\Users\Dominik\Desktop\zac\application_aire\application_aire\bin\Debug\application_aire.pdb
+C:\Users\Dominik\Desktop\zac\application_aire\application_aire\bin\Debug\application_aire.xml
+C:\Users\Dominik\Desktop\zac\application_aire\application_aire\bin\Debug\dje\application_aire.resources.dll
+C:\Users\Dominik\Desktop\zac\application_aire\application_aire\bin\Debug\fr-CA\application_aire.resources.dll
+C:\Users\Dominik\Desktop\zac\application_aire\application_aire\obj\Debug\application_aire.vbprojResolveAssemblyReference.cache
+C:\Users\Dominik\Desktop\zac\application_aire\application_aire\obj\Debug\application_aire.fm_carre.resources
+C:\Users\Dominik\Desktop\zac\application_aire\application_aire\obj\Debug\application_aire.fm_menu.resources
+C:\Users\Dominik\Desktop\zac\application_aire\application_aire\obj\Debug\application_aire.Resources.resources
+C:\Users\Dominik\Desktop\zac\application_aire\application_aire\obj\Debug\application_aire.fm_menu.dje.resources
+C:\Users\Dominik\Desktop\zac\application_aire\application_aire\obj\Debug\application_aire.fm_menu.fr-CA.resources
+C:\Users\Dominik\Desktop\zac\application_aire\application_aire\obj\Debug\application_aire.vbproj.GenerateResource.Cache
+C:\Users\Dominik\Desktop\zac\application_aire\application_aire\obj\Debug\dje\application_aire.resources.dll
+C:\Users\Dominik\Desktop\zac\application_aire\application_aire\obj\Debug\fr-CA\application_aire.resources.dll
