@@ -15,27 +15,48 @@
         Dim largeur = tb_largeur
         Dim reponse = tb_reponse
 
-        If longeur.Text = "" Then
-            Call _error(1, "longeur empty")
-        End If
-
-        If largeur.Text = "" Then
-            Call _error(2, "largeur empty")
-        End If
-
-        If reponse.Text = "" Then
-            Call _error(3, "reponse empty")
-        End If
+        '    If longeur.Text = "" Then
+        '        Call _error(1, "longeur empty")
+        '    End If
+        '
+        '    If largeur.Text = "" Then
+        '        Call _error(2, "largeur empty")
+        '    End If
+        '
+        '    If reponse.Text = "" Then
+        '        Call _error(3, "reponse empty")
+        '    End If
 
         If _checkForEmpty(longeur) Then
             If _checkForEmpty(largeur) Then
-                ' longeur x largeur
-                reponse.Text = "reponse"
+                ' longeur & largeur
+                reponse.Text = longeur.Text * largeur.Text
+                GoTo done
             End If
             If _checkForEmpty(reponse) Then
-
+                ' longeur & reponse
+                largeur.Text = reponse.Text / longeur.Text
+                GoTo done
             End If
+            ' longeur
+            ' error
+            GoTo done
+        ElseIf _checkForEmpty(largeur) Then
+            If _checkForEmpty(reponse) Then
+                ' largeur & reponse
+                longeur.Text = reponse.Text / largeur.Text
+                GoTo done
+            End If
+            ' largeur
+            ' error
+            GoTo done
+        ElseIf _checkForEmpty(reponse) Then
+            ' reponse
+            ' error
+            GoTo done
         End If
+
+done:
 
     End Sub
 
