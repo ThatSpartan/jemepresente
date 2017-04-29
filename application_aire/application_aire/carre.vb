@@ -71,4 +71,29 @@ done:
     Sub _error(code As Integer, msg As String)
         MsgBox("Error " & code & vbNewLine & msg)
     End Sub
+
+    Private Sub check_for_number(sender As Object, e As KeyPressEventArgs) Handles tb_reponse.KeyPress, tb_longeur.KeyPress, tb_largeur.KeyPress
+
+
+        Dim ch = e.KeyChar
+        If Char.IsDigit(ch) = False And Char.IsControl(ch) = False Then
+            e.Handled = True
+        End If
+    End Sub
+
+    Private Sub _delete(sender As Object, e As EventArgs) Handles btn_delete_reponse.Click, btn_delete_largeur.Click, btn_delete_longeur.Click
+        Select Case sender.name
+            Case "btn_delete_longeur"
+                tb_longeur.Text = ""
+            Case "btn_delete_largeur"
+                tb_largeur.Text = ""
+            Case "btn_delete_reponse"
+                tb_reponse.Text = ""
+        End Select
+    End Sub
+
+    Private Sub _closing(sender As Object, e As FormClosingEventArgs) Handles MyBase.FormClosing
+        Call _wait()
+        fm_menu.Show()
+    End Sub
 End Class

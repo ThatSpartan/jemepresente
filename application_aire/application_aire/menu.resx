@@ -117,92 +117,236 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Form1</value>
-  </data>
-  <data name="&gt;&gt;btn_rectangle.Parent" xml:space="preserve">
-    <value>$this</value>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>449, 280</value>
+  <data name="Label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 21pt</value>
   </data>
-  <data name="Label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>45, 79</value>
+  <data name="Label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>131, 29</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="btn_quitter.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>1, 1, 1, 1</value>
+  <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 32</value>
   </data>
-  <data name="Label3.Text" xml:space="preserve">
-    <value>crDominik</value>
-  </data>
-  <data name="&gt;&gt;btn_carre.Name" xml:space="preserve">
-    <value>btn_carre</value>
-  </data>
-  <data name="&gt;&gt;Label2.Name" xml:space="preserve">
-    <value>Label2</value>
-  </data>
-  <data name="btn_carre.Location" type="System.Drawing.Point, System.Drawing">
-    <value>121, 130</value>
-  </data>
-  <data name="&gt;&gt;btn_carre.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;btn_cercle.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="btn_carre.Size" type="System.Drawing.Size, System.Drawing">
-    <value>80, 35</value>
-  </data>
-  <data name="btn_triangle.Text" xml:space="preserve">
-    <value>Triangle</value>
-  </data>
-  <data name="btn_carre.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>1, 1, 1, 1</value>
-  </data>
-  <data name="Label2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
-  </data>
-  <data name="Label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>383, 258</value>
-  </data>
-  <data name="&gt;&gt;btn_rectangle.Name" xml:space="preserve">
-    <value>btn_rectangle</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="Label1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="Label2.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="Label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>231, 20</value>
-  </data>
-  <data name="&gt;&gt;btn_rectangle.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;btn_triangle.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>Calcule d'aire</value>
   </data>
   <data name="&gt;&gt;Label1.Name" xml:space="preserve">
     <value>Label1</value>
   </data>
+  <data name="&gt;&gt;Label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label1.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="Label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 79</value>
+  </data>
+  <data name="Label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 20</value>
+  </data>
+  <data name="Label2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
   <data name="Label2.Text" xml:space="preserve">
     <value>Choisir la figure plane à calculer</value>
   </data>
-  <data name="Label3.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="&gt;&gt;Label2.Name" xml:space="preserve">
+    <value>Label2</value>
+  </data>
+  <data name="&gt;&gt;Label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label2.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btn_carre.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="btn_carre.Location" type="System.Drawing.Point, System.Drawing">
+    <value>121, 130</value>
+  </data>
+  <data name="btn_carre.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="btn_carre.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 35</value>
+  </data>
+  <data name="btn_carre.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btn_carre.Text" xml:space="preserve">
+    <value>Carré</value>
+  </data>
+  <data name="&gt;&gt;btn_carre.Name" xml:space="preserve">
+    <value>btn_carre</value>
+  </data>
+  <data name="&gt;&gt;btn_carre.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_carre.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_carre.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btn_cercle.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="btn_cercle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 130</value>
+  </data>
+  <data name="btn_cercle.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="btn_cercle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 35</value>
+  </data>
+  <data name="btn_cercle.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btn_cercle.Text" xml:space="preserve">
+    <value>Cercle</value>
+  </data>
+  <data name="&gt;&gt;btn_cercle.Name" xml:space="preserve">
+    <value>btn_cercle</value>
+  </data>
+  <data name="&gt;&gt;btn_cercle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_cercle.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_cercle.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btn_triangle.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="btn_triangle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>121, 171</value>
   </data>
   <data name="btn_triangle.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>1, 1, 1, 1</value>
   </data>
+  <data name="btn_triangle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 35</value>
+  </data>
+  <data name="btn_triangle.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btn_triangle.Text" xml:space="preserve">
+    <value>Triangle</value>
+  </data>
+  <data name="&gt;&gt;btn_triangle.Name" xml:space="preserve">
+    <value>btn_triangle</value>
+  </data>
+  <data name="&gt;&gt;btn_triangle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_triangle.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_triangle.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btn_rectangle.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="btn_rectangle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 171</value>
+  </data>
+  <data name="btn_rectangle.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="btn_rectangle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 35</value>
+  </data>
+  <data name="btn_rectangle.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btn_rectangle.Text" xml:space="preserve">
+    <value>Rectangle</value>
+  </data>
+  <data name="&gt;&gt;btn_rectangle.Name" xml:space="preserve">
+    <value>btn_rectangle</value>
+  </data>
+  <data name="&gt;&gt;btn_rectangle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_rectangle.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_rectangle.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btn_quitter.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="btn_quitter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>172, 212</value>
+  </data>
+  <data name="btn_quitter.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="btn_quitter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 35</value>
+  </data>
+  <data name="btn_quitter.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btn_quitter.Text" xml:space="preserve">
+    <value>Quitter</value>
+  </data>
+  <data name="&gt;&gt;btn_quitter.Name" xml:space="preserve">
+    <value>btn_quitter</value>
+  </data>
+  <data name="&gt;&gt;btn_quitter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;btn_quitter.Parent" xml:space="preserve">
     <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_quitter.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>383, 258</value>
+  </data>
+  <data name="Label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 13</value>
+  </data>
+  <data name="Label3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="Label3.Text" xml:space="preserve">
+    <value>crDominik</value>
+  </data>
+  <data name="&gt;&gt;Label3.Name" xml:space="preserve">
+    <value>Label3</value>
   </data>
   <data name="&gt;&gt;Label3.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -210,172 +354,25 @@
   <data name="&gt;&gt;Label3.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;btn_quitter.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="btn_cercle.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="&gt;&gt;btn_rectangle.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btn_rectangle.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
-    <value>GrowAndShrink</value>
-  </data>
-  <data name="btn_rectangle.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>1, 1, 1, 1</value>
-  </data>
-  <data name="&gt;&gt;btn_cercle.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btn_cercle.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="btn_quitter.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="btn_quitter.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
-    <value>GrowAndShrink</value>
-  </data>
-  <data name="&gt;&gt;btn_cercle.Name" xml:space="preserve">
-    <value>btn_cercle</value>
-  </data>
-  <data name="&gt;&gt;btn_cercle.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;btn_quitter.Name" xml:space="preserve">
-    <value>btn_quitter</value>
-  </data>
-  <data name="btn_quitter.Size" type="System.Drawing.Size, System.Drawing">
-    <value>80, 35</value>
-  </data>
-  <data name="Label1.Text" xml:space="preserve">
-    <value>Calcule d'aire</value>
-  </data>
-  <data name="btn_rectangle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>229, 171</value>
-  </data>
-  <data name="btn_cercle.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
-    <value>GrowAndShrink</value>
-  </data>
-  <data name="btn_quitter.Text" xml:space="preserve">
-    <value>Quitter</value>
-  </data>
-  <data name="btn_triangle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>121, 171</value>
-  </data>
-  <data name="btn_carre.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;Label3.Name" xml:space="preserve">
-    <value>Label3</value>
-  </data>
-  <data name="&gt;&gt;btn_triangle.Name" xml:space="preserve">
-    <value>btn_triangle</value>
-  </data>
-  <data name="&gt;&gt;btn_quitter.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btn_triangle.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
-    <value>GrowAndShrink</value>
-  </data>
-  <data name="btn_cercle.Text" xml:space="preserve">
-    <value>Cercle</value>
-  </data>
   <data name="&gt;&gt;Label3.ZOrder" xml:space="preserve">
     <value>0</value>
-  </data>
-  <data name="btn_carre.Text" xml:space="preserve">
-    <value>Carré</value>
-  </data>
-  <data name="Label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>131, 29</value>
-  </data>
-  <data name="&gt;&gt;btn_carre.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="Label3.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="Label2.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="btn_triangle.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="Label1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 21pt</value>
-  </data>
-  <data name="&gt;&gt;Label1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="Label1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="btn_rectangle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>80, 35</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>fm_menu</value>
-  </data>
-  <data name="&gt;&gt;Label1.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;Label2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btn_carre.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btn_triangle.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="btn_cercle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>229, 130</value>
-  </data>
-  <data name="btn_cercle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>80, 35</value>
-  </data>
-  <data name="btn_rectangle.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>187, 32</value>
-  </data>
-  <data name="&gt;&gt;Label2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="btn_carre.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
-    <value>GrowAndShrink</value>
-  </data>
-  <data name="btn_quitter.Location" type="System.Drawing.Point, System.Drawing">
-    <value>172, 212</value>
-  </data>
-  <data name="&gt;&gt;Label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btn_triangle.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btn_triangle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>80, 35</value>
-  </data>
-  <data name="Label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>54, 13</value>
-  </data>
-  <data name="&gt;&gt;Label2.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="btn_rectangle.Text" xml:space="preserve">
-    <value>Rectangle</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>fr-CA</value>
-  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>449, 280</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>fm_menu</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>
