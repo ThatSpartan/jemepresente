@@ -18,4 +18,10 @@
         Call _wait()
         fm_rectangle.Show()
     End Sub
+
+    Private Sub btn_triangle_Click(sender As Object, e As EventArgs) Handles btn_triangle.Click
+        Hide()
+        Call _wait()
+        fm_triangle.Show()
+    End Sub
 End Class

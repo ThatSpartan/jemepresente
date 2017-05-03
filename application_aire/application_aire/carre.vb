@@ -22,7 +22,6 @@
         ElseIf reponse.Text <> "" Then
             ' trouver la dimension
             longeur.Text = Math.Round(Math.Sqrt(reponse.Text), 2)
-
         End If
 
         largeur.Text = longeur.Text
@@ -64,5 +63,9 @@
     Private Sub _closing(sender As Object, e As FormClosingEventArgs) Handles MyBase.FormClosing
         Call _wait()
         fm_menu.Show()
+    End Sub
+
+    Private Sub tb_longeur_TextChanged(sender As Object, e As EventArgs) Handles tb_longeur.TextChanged
+        tb_largeur.Text = tb_longeur.Text
     End Sub
 End Class

@@ -78,6 +78,12 @@
     <Compile Include="carre.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="fm_triangle.Designer.vb">
+      <DependentUpon>fm_triangle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="fm_triangle.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="menu.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -110,6 +116,9 @@
   <ItemGroup>
     <EmbeddedResource Include="carre.resx">
       <DependentUpon>carre.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fm_triangle.resx">
+      <DependentUpon>fm_triangle.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="menu.dje.resx">
       <DependentUpon>menu.vb</DependentUpon>

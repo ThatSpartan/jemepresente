@@ -34,3 +34,4 @@ C:\Users\Dominik\Desktop\zac\application_aire\application_aire\obj\Debug\applica
 C:\Users\Dominik\Desktop\zac\application_aire\application_aire\obj\Debug\dje\application_aire.resources.dll
 C:\Users\Dominik\Desktop\zac\application_aire\application_aire\obj\Debug\fr-CA\application_aire.resources.dll
 C:\Users\Dominik\Desktop\zac\application_aire\application_aire\obj\Debug\application_aire.fm_rectangle.resources
+C:\Users\Dominik\Desktop\zac\application_aire\application_aire\obj\Debug\application_aire.fm_triangle.resources
