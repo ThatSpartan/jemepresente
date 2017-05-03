@@ -12,4 +12,10 @@
         Call _wait()
         fm_carre.Show()
     End Sub
+
+    Private Sub btn_rectangle_Click(sender As Object, e As EventArgs) Handles btn_rectangle.Click
+        Hide()
+        Call _wait()
+        fm_rectangle.Show()
+    End Sub
 End Class
